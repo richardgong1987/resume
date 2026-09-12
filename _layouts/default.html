@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <meta name="theme-color" content="#102d46">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% include head-custom.html %}
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Hanjin Gong home"><span class="monogram" aria-hidden="true">HG</span>Hanjin Gong</a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}" {% if page.page_kind == 'home' %}aria-current="page"{% endif %}>Overview</a>
+      <a href="{{ '/gong_hanjin_english.html' | relative_url }}" {% if page.page_kind == 'cv' %}aria-current="page"{% endif %}>Full CV</a>
+      <a href="mailto:richardgong1988@gmail.com">Contact</a>
+    </nav>
+  </header>
+  <main id="main-content" class="{% if page.page_kind == 'home' %}home{% else %}document{% endif %}">
+    {{ content }}
+  </main>
+  <footer class="site-footer"><span>Hanjin Gong · Richard Gong</span><span>Tokyo, Japan · <a href="https://www.linkedin.com/in/hanjin-gong-algorithms/">LinkedIn</a> · <a href="https://github.com/richardgong1987">GitHub</a></span></footer>
+</body>
+</html>

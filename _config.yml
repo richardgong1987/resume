@@ -1,0 +1,64 @@
+# --- Site identity (drives <title>, og:*, and the H1 in the theme header) ---
+# Rendered as the site H1 and as the suffix of every <title>, so keep it short
+# enough that the page-specific half survives Google's ~60-char truncation.
+title: Hanjin Gong (Richard Gong)
+description: >-
+  Senior Full-Stack / FinTech Engineer in Tokyo. Building software since 2008 —
+  sell-side trading, fixed-income risk and payments. Java, Python, Go, TypeScript, kdb+/q.
+lang: en
+
+# Year the professional career is counted from. Every "N years" figure on the
+# site is derived from this at build time, so the number never needs editing.
+# The experience figure is recalculated whenever GitHub Pages rebuilds.
+career_start_year: 2008
+
+# Canonical origin. Without these, jekyll-seo-tag emits an http:// canonical.
+url: https://richardgong1987.github.io
+baseurl: /resume
+
+# Search Console / Bing verification. jekyll-seo-tag turns these into the
+# <meta name="google-site-verification"> tag the consoles look for. Paste only
+# the token from the meta tag Google shows you, not the whole tag. Leave a key
+# with no value to stay silent: Liquid treats "" as TRUE and would emit an
+# empty content="" tag, but an absent YAML value is nil and is skipped.
+# Verify at the URL-prefix property https://richardgong1987.github.io/resume/
+# — a Domain property needs DNS control over github.io, which we do not have.
+webmaster_verifications:
+  google:
+  bing:
+
+author:
+  name: Hanjin Gong
+  email: richardgong1988@gmail.com
+
+
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+exclude:
+  - p.sh
+  - tools
+  - requirements-pdf.txt
+  - .idea
+
+# Personal notes stay reachable by URL but are kept out of search results,
+# so they cannot outrank or dilute the CV pages. See robots.txt.
+noindex_paths:
+  - /interview-practice/
+  - /learn/
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
+  - scope: { path: "interview-practice" }
+    values: { sitemap: false }
+  - scope: { path: "learn" }
+    values: { sitemap: false }
+  # Google's own verification file is a static .html, so jekyll-sitemap lists it
+  # like any page. Nothing should index a 53-byte token file.
+  - scope: { path: "google9ffb831de9637a05.html" }
+    values: { sitemap: false }
+

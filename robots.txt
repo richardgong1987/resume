@@ -1,0 +1,13 @@
+# NOTE: while this site is served from ilovestudy.github.io/richardresume.io/,
+# crawlers read https://ilovestudy.github.io/robots.txt — NOT this file, which
+# sits one level down. The Disallow rules below therefore do nothing today; the
+# noindex meta tag in _includes/head-custom.html is what actually keeps the
+# private notes out of search results. This file becomes effective the moment
+# the site moves to its own domain.
+
+User-agent: *
+Allow: /
+Disallow: /interview-practice/
+Disallow: /learn/
+
+Sitemap: https://richardgong1987.github.io/resume/sitemap.xml

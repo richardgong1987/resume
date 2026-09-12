@@ -1,0 +1,67 @@
+{% if page.page_kind == "home" or page.page_kind == "cv" %}
+{%- comment -%}
+Schema.org Person markup. jekyll-seo-tag only emits a generic WebSite/WebPage
+node, which does not tell a search engine that this site is about a person.
+The Person node is what lets a name query resolve to this page with the right
+job title, employer and location in the snippet.
+{%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": {{ site.url | append: site.baseurl | append: page.url | jsonify }},
+  
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Hanjin Gong",
+    "givenName": "Hanjin",
+    "familyName": "Gong",
+    "alternateName": [
+      "Richard Gong",
+      "Gong Hanjin",
+      "GONG HANJIN"
+    ],
+    "jobTitle": "Senior Software Engineer",
+    "description": "Senior full-stack and financial-software engineer with {% include years.html %} years of experience across sell-side trading, retail banking, payments and high-traffic consumer platforms. Currently building JGB portfolio optimisation and risk analytics at a tier-1 Japanese investment bank.",
+    "email": "mailto:richardgong1988@gmail.com",
+    "telephone": "+81-80-7006-5858",
+    "url": {{ site.url | append: site.baseurl | append: '/' | jsonify }},
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Koto City",
+      "addressRegion": "Tokyo",
+      "addressCountry": "JP"
+    },
+    "worksFor": { "@type": "Organization", "name": "Michael Page Japan" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Shanghai College of Science & Technology" }
+    ],
+    "knowsLanguage": ["en", "zh"],
+    "knowsAbout": [
+      "Fixed Income", "Japan Government Bonds", "Portfolio Optimisation",
+      "Convex Optimisation", "CVXPY", "Quantitative Development",
+      "Algorithmic Trading", "Risk Analytics", "Market Data Infrastructure",
+      "Java", "Python", "Go", "Node.js", "TypeScript", "Next.js", "C#", ".NET",
+      "kdb+/q", "Kafka", "Kubernetes", "AWS", "Microservices"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/hanjin-gong-algorithms/",
+      "https://github.com/richardgong1987",
+      "https://github.com/ILoveStudy"
+    ]
+  }
+}
+</script>
+{% endif %}
+
+{%- comment -%} Keep private notes out of search results. {%- endcomment -%}
+{%- assign is_noindex = false -%}
+{%- for path in site.noindex_paths -%}
+  {%- if page.url contains path -%}{%- assign is_noindex = true -%}{%- endif -%}
+{%- endfor -%}
+{%- if is_noindex -%}
+<meta name="robots" content="noindex, follow">
+{%- else -%}
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+{%- endif -%}
+
