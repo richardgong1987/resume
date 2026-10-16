@@ -17,7 +17,7 @@ Richard Gong · Senior Software Engineer
 
 **Financial Systems · Backend & Full-Stack Development**
 
-Tokyo, Japan · Open to relocation to the UK or Canada
+Tokyo, Japan · Open to relocation
 
 [Email](mailto:richardgong1988@gmail.com) · [LinkedIn](https://www.linkedin.com/in/hanjin-gong-algorithms/) · [GitHub](https://github.com/richardgong1987) · [Download PDF](gong_hanjin_english.pdf)
 
