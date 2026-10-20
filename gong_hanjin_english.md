@@ -123,19 +123,13 @@ Shanghai, China · Aug 2010 – May 2013
 - **Delivery:** GitLab CI/CD, Jenkins, Ansible, Docker, Kubernetes, GitHub Actions, AWS and Azure.
 - **Quantitative development:** CVXPY, NumPy, pandas, portfolio optimisation, yield curves, DV01/key-rate duration and scenario PnL.
 
-## Selected independent projects
-
-- **Backend administration | Rust | [TraderAdminRust](https://github.com/richardgong1987/TraderAdminRust):** Adapt and extend an open-source administration backend using Axum, Tokio, Serde and RBatis; work on routing, middleware, authentication, role-based access control and database integration.
-- **Automated trading | C# / cTrader Automate | 2025–present:** Develop strategies with separate signal, execution and position-management components; implement volatility filters, position sizing and exit rules, and evaluate behaviour through backtesting and live observation.
-- **Agent coordination | Jason/AgentSpeak | [Jason-learning](https://github.com/richardgong1987/Jason-learning):** Explore BDI reasoning, belief updates, goal-driven plans and communication through multiagent programming exercises.
-
 ## Education
 
 **MSc Computer Science | University of Liverpool, UK**  
 Expected 2027
 
 - **Multiagent systems (ongoing):** Agent autonomy, reactive and proactive behaviour, BDI (beliefs, desires and intentions), deductive and practical reasoning, agent communication and coordination.
-- **Logic and agent-oriented programming (ongoing):** Prolog facts, rules, queries and unification; Jason/AgentSpeak beliefs, goals, plans, events and inter-agent messaging. Practical exercises: [Jason-learning](https://github.com/richardgong1987/Jason-learning).
+- **Logic and agent-oriented programming (ongoing):** Prolog facts, rules, queries and unification; Jason/AgentSpeak beliefs, goals, plans, events and inter-agent messaging.
 - **Additional study:** Mathematical foundations for machine learning, including calculus and gradient descent; human-computer interaction and accessibility evaluation.
 
 **Associate Degree, Science & Technology | Shanghai College of Science & Technology**  

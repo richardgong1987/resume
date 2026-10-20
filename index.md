@@ -56,7 +56,7 @@ page_kind: home
   <h2 id="learning-title">From backend services to intelligent agents.</h2>
   <p>Proficient in Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak. Work spans backend APIs, full-stack applications, quantitative development, automated trading and agent coordination across professional roles, independent projects and academic study.</p>
   <p>Ongoing study includes Prolog, multiagent systems, machine-learning mathematics and human-computer interaction.</p>
-  <div class="actions"><a class="text-link" href="{{ '/gong_hanjin_english.html' | relative_url }}">Explore experience and projects ↗</a><a class="text-link" href="https://github.com/richardgong1987">GitHub projects ↗</a></div>
+  <div class="actions"><a class="text-link" href="{{ '/gong_hanjin_english.html' | relative_url }}">Explore professional experience ↗</a><a class="text-link" href="https://github.com/richardgong1987">GitHub ↗</a></div>
 </section>
 
 <section class="section closing" aria-labelledby="contact-title">
