@@ -125,7 +125,10 @@ Shanghai, China · Aug 2010 – May 2013
 
 ## Independent Research
 
-Programming language paradigms, concurrency and memory safety; quantitative methods and systematic trading; logic programming, automated reasoning and multiagent systems.
+- **Algorithmic trading with cTrader and MetaTrader 5 (MT5):** Research automated trading strategies, signal generation, order execution, position sizing and risk management, using backtesting and forward evaluation to examine strategy behaviour.
+- **Model training with Rust:** Explore Rust-based machine-learning workflows, including data preparation, model training and evaluation, with attention to computational performance and memory efficiency.
+- **Trading systems with Rust:** Investigate trading-system design, including market-data processing, asynchronous execution, concurrency and order management.
+- **Multiagent systems with Jason and Prolog:** Explore BDI agents, logic-based reasoning, knowledge representation, inter-agent communication and coordination for collaborative decision-making.
 
 ## Education
 
