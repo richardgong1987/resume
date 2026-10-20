@@ -7,8 +7,8 @@ description: >-
   Full curriculum vitae of Hanjin Gong (Richard Gong), senior full-stack and
   financial-software engineer in Tokyo, Japan. Nomura, HSBC, Ctrip. Fixed income,
   JGB portfolio optimisation, convex optimisation with CVXPY, algorithmic trading,
-  Java, Python, TypeScript, Go, kdb+/q, Kubernetes, AWS. Independent Rust backend
-  development and ongoing study of Prolog, Jason/AgentSpeak and multiagent systems.
+  Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak.
+  Backend and full-stack development, quantitative engineering and multiagent systems.
 layout: default
 page_kind: cv
 ---
@@ -26,7 +26,7 @@ Tokyo, Japan · Open to relocation
 
 Software engineer with {% include years.html %} years of experience across investment banking, retail banking, payments and consumer platforms. My work combines financial-domain understanding with hands-on backend, frontend and delivery engineering. At Nomura, my experience includes Java financial applications alongside JGB portfolio optimisation and risk analytics using Python and CVXPY.
 
-I work across requirements, implementation, integration and deployment. Alongside my professional work, I develop Rust backend projects and automated trading strategies in C# with cTrader Automate. My ongoing MSc study includes logic programming and multiagent systems using Prolog and Jason/AgentSpeak.
+Proficient in Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak, with experience spanning professional delivery, independent projects and academic work. I work across requirements, implementation, integration and deployment, selecting technologies to suit the problem. My interests include financial systems, backend services, full-stack applications, quantitative development and multiagent systems.
 
 ## Professional experience
 
@@ -115,29 +115,19 @@ Shanghai, China · Aug 2010 – May 2013
 
 ## Core technologies
 
-- **Languages:** Java, Python, Go and TypeScript/JavaScript; Rust and C# through independent projects; Prolog and Jason/AgentSpeak through ongoing study.
-- **Rust development:** Ownership and borrowing, traits, error handling, async/await, Cargo, Tokio, Axum, Serde and RBatis, applied in personal backend projects.
-- **Applications:** Spring Boot, Javalin, FastAPI, Flask, NestJS, Express, React, Next.js and Angular.
+- **Languages:** Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak; additional study in Prolog.
+- **Backend and APIs:** Spring Boot, Javalin, FastAPI, Flask, Node.js, NestJS, Express and Axum.
+- **Frontend:** React, Next.js and Angular.
+- **Programming approaches:** Object-oriented and functional programming, asynchronous and concurrent programming, Rust ownership and borrowing, logic programming and BDI agent programming.
 - **Data and integration:** SQL, Oracle, MySQL, Redis, Kafka, RabbitMQ, kdb+/q, REST and gRPC.
 - **Delivery:** GitLab CI/CD, Jenkins, Ansible, Docker, Kubernetes, GitHub Actions, AWS and Azure.
 - **Quantitative development:** CVXPY, NumPy, pandas, portfolio optimisation, yield curves, DV01/key-rate duration and scenario PnL.
 
-## Independent Rust development
+## Selected independent projects
 
-**Personal backend projects | [TraderAdminRust](https://github.com/richardgong1987/TraderAdminRust)**
-
-- Adapt and extend an open-source Rust administration backend, working with Axum routing and middleware, Tokio asynchronous execution, Serde data models and RBatis database access.
-- Work across authentication, role-based access control, file handling and database configuration; explore Axum and Actix Web implementations and refine handler response types.
-- Deepen practical understanding of Rust ownership, borrowing, traits and error propagation through application development and refactoring.
-
-## Independent trading research
-
-**Personal research and live trading | 2025–present**
-
-- Develop automated cTrader strategies in C#, separating signal generation, execution, position management and diagnostics.
-- Build reusable indicator components using ATR, Bollinger Bands, fractals, previous-day levels and volatility filters.
-- Implement position sizing, stop-loss and take-profit rules, partial exits and broker-specific volume normalisation using OnTick and OnBar events.
-- Evaluate strategies through backtesting, sensitivity checks and live observation, with explicit R-multiple risk controls, drawdown monitoring and transaction-cost assumptions.
+- **Backend administration | Rust | [TraderAdminRust](https://github.com/richardgong1987/TraderAdminRust):** Adapt and extend an open-source administration backend using Axum, Tokio, Serde and RBatis; work on routing, middleware, authentication, role-based access control and database integration.
+- **Automated trading | C# / cTrader Automate | 2025–present:** Develop strategies with separate signal, execution and position-management components; implement volatility filters, position sizing and exit rules, and evaluate behaviour through backtesting and live observation.
+- **Agent coordination | Jason/AgentSpeak | [Jason-learning](https://github.com/richardgong1987/Jason-learning):** Explore BDI reasoning, belief updates, goal-driven plans and communication through multiagent programming exercises.
 
 ## Education
 

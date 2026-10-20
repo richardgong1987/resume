@@ -12,8 +12,7 @@ redirect_from:
 description: >-
   Hanjin Gong (Richard Gong) — senior full-stack and financial-software engineer
   in Tokyo, Japan. Building software since 2008 — sell-side trading, fixed-income risk, payments
-  and high-traffic consumer platforms. Java, Python, TypeScript, Go,
-  kdb+/q, CVXPY; independent Rust backend projects. Currently at Nomura on JGB portfolio optimisation and risk analytics.
+  and high-traffic consumer platforms. Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak. Currently at Nomura on JGB portfolio optimisation and risk analytics.
 layout: default
 page_kind: home
 ---
@@ -24,6 +23,7 @@ page_kind: home
   <p class="role">Senior Software Engineer</p>
   <p class="hero-summary">Financial systems. Backend engineering.<br>Full-stack delivery.</p>
   <p class="intro">{% include years.html %} years of software development across investment banking, retail banking, payments and consumer platforms.</p>
+  <p class="tags">Java · Python · Go · TypeScript/JavaScript · C# · Rust · Jason/AgentSpeak</p>
   <div class="actions">
     <a class="button primary" href="{{ '/gong_hanjin_english.html' | relative_url }}">Read full CV <span aria-hidden="true">↗</span></a>
     <a class="button" href="{{ '/gong_hanjin_english.pdf' | relative_url }}">Download PDF</a>
@@ -52,11 +52,11 @@ page_kind: home
 </section>
 
 <section class="section" aria-labelledby="learning-title">
-  <p class="eyebrow">INDEPENDENT PROJECTS & ONGOING STUDY</p>
-  <h2 id="learning-title">Rust backends and multiagent systems.</h2>
-  <p>Developing personal Rust backend projects with Axum, Tokio, Serde and RBatis, deepening practical understanding of ownership, borrowing, traits and asynchronous programming.</p>
-  <p>Studying Prolog and Jason/AgentSpeak alongside multiagent systems: logic programming, BDI reasoning, agent communication and coordination.</p>
-  <div class="actions"><a class="text-link" href="https://github.com/richardgong1987/TraderAdminRust">Rust backend project ↗</a><a class="text-link" href="https://github.com/richardgong1987/Jason-learning">Agent programming exercises ↗</a></div>
+  <p class="eyebrow">TECHNICAL BREADTH</p>
+  <h2 id="learning-title">From backend services to intelligent agents.</h2>
+  <p>Proficient in Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak. Work spans backend APIs, full-stack applications, quantitative development, automated trading and agent coordination across professional roles, independent projects and academic study.</p>
+  <p>Ongoing study includes Prolog, multiagent systems, machine-learning mathematics and human-computer interaction.</p>
+  <div class="actions"><a class="text-link" href="{{ '/gong_hanjin_english.html' | relative_url }}">Explore experience and projects ↗</a><a class="text-link" href="https://github.com/richardgong1987">GitHub projects ↗</a></div>
 </section>
 
 <section class="section closing" aria-labelledby="contact-title">
