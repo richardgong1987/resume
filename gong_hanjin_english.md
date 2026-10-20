@@ -26,7 +26,7 @@ Tokyo, Japan · Open to relocation
 
 Software engineer with {% include years.html %} years of experience across investment banking, retail banking, payments and consumer platforms. My work combines financial-domain understanding with hands-on backend, frontend and delivery engineering. At Nomura, my experience includes Java financial applications alongside JGB portfolio optimisation and risk analytics using Python and CVXPY.
 
-Proficient in Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak, with experience spanning professional delivery, independent projects and academic work. I work across requirements, implementation, integration and deployment, selecting technologies to suit the problem. My interests include financial systems, backend services, full-stack applications, quantitative development and multiagent systems.
+Proficient in Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak, with experience spanning professional delivery, independent research and academic work. I work across requirements, implementation, integration and deployment, selecting technologies to suit the problem. My interests include financial systems, backend services, full-stack applications, quantitative development and multiagent systems.
 
 ## Professional experience
 
@@ -122,6 +122,10 @@ Shanghai, China · Aug 2010 – May 2013
 - **Data and integration:** SQL, Oracle, MySQL, Redis, Kafka, RabbitMQ, kdb+/q, REST and gRPC.
 - **Delivery:** GitLab CI/CD, Jenkins, Ansible, Docker, Kubernetes, GitHub Actions, AWS and Azure.
 - **Quantitative development:** CVXPY, NumPy, pandas, portfolio optimisation, yield curves, DV01/key-rate duration and scenario PnL.
+
+## Independent Research
+
+Programming language paradigms, concurrency and memory safety; quantitative methods and systematic trading; logic programming, automated reasoning and multiagent systems.
 
 ## Education
 
