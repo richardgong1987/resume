@@ -7,7 +7,8 @@ description: >-
   Full curriculum vitae of Hanjin Gong (Richard Gong), senior full-stack and
   financial-software engineer in Tokyo, Japan. Nomura, HSBC, Ctrip. Fixed income,
   JGB portfolio optimisation, convex optimisation with CVXPY, algorithmic trading,
-  Java, Python, TypeScript, Go, kdb+/q, Kubernetes, AWS.
+  Java, Python, TypeScript, Go, kdb+/q, Kubernetes, AWS. Independent Rust backend
+  development and ongoing study of Prolog, Jason/AgentSpeak and multiagent systems.
 layout: default
 page_kind: cv
 ---
@@ -25,7 +26,7 @@ Tokyo, Japan · Open to relocation
 
 Software engineer with {% include years.html %} years of experience across investment banking, retail banking, payments and consumer platforms. My work combines financial-domain understanding with hands-on backend, frontend and delivery engineering. At Nomura, my experience includes Java financial applications alongside JGB portfolio optimisation and risk analytics using Python and CVXPY.
 
-I work across requirements, implementation, integration and deployment, and independently develop automated trading strategies in C# with cTrader Automate.
+I work across requirements, implementation, integration and deployment. Alongside my professional work, I develop Rust backend projects and automated trading strategies in C# with cTrader Automate. My ongoing MSc study includes logic programming and multiagent systems using Prolog and Jason/AgentSpeak.
 
 ## Professional experience
 
@@ -114,11 +115,20 @@ Shanghai, China · Aug 2010 – May 2013
 
 ## Core technologies
 
-- **Languages:** Java, Python, Go, TypeScript/JavaScript, Node.js and C#/.NET.
+- **Languages:** Java, Python, Go and TypeScript/JavaScript; Rust and C# through independent projects; Prolog and Jason/AgentSpeak through ongoing study.
+- **Rust development:** Ownership and borrowing, traits, error handling, async/await, Cargo, Tokio, Axum, Serde and RBatis, applied in personal backend projects.
 - **Applications:** Spring Boot, Javalin, FastAPI, Flask, NestJS, Express, React, Next.js and Angular.
 - **Data and integration:** SQL, Oracle, MySQL, Redis, Kafka, RabbitMQ, kdb+/q, REST and gRPC.
 - **Delivery:** GitLab CI/CD, Jenkins, Ansible, Docker, Kubernetes, GitHub Actions, AWS and Azure.
 - **Quantitative development:** CVXPY, NumPy, pandas, portfolio optimisation, yield curves, DV01/key-rate duration and scenario PnL.
+
+## Independent Rust development
+
+**Personal backend projects | [TraderAdminRust](https://github.com/richardgong1987/TraderAdminRust)**
+
+- Adapt and extend an open-source Rust administration backend, working with Axum routing and middleware, Tokio asynchronous execution, Serde data models and RBatis database access.
+- Work across authentication, role-based access control, file handling and database configuration; explore Axum and Actix Web implementations and refine handler response types.
+- Deepen practical understanding of Rust ownership, borrowing, traits and error propagation through application development and refactoring.
 
 ## Independent trading research
 
@@ -133,6 +143,10 @@ Shanghai, China · Aug 2010 – May 2013
 
 **MSc Computer Science | University of Liverpool, UK**  
 Expected 2027
+
+- **Multiagent systems (ongoing):** Agent autonomy, reactive and proactive behaviour, BDI (beliefs, desires and intentions), deductive and practical reasoning, agent communication and coordination.
+- **Logic and agent-oriented programming (ongoing):** Prolog facts, rules, queries and unification; Jason/AgentSpeak beliefs, goals, plans, events and inter-agent messaging. Practical exercises: [Jason-learning](https://github.com/richardgong1987/Jason-learning).
+- **Additional study:** Mathematical foundations for machine learning, including calculus and gradient descent; human-computer interaction and accessibility evaluation.
 
 **Associate Degree, Science & Technology | Shanghai College of Science & Technology**  
 2007–2010

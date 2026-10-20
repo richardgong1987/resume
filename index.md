@@ -13,7 +13,7 @@ description: >-
   Hanjin Gong (Richard Gong) — senior full-stack and financial-software engineer
   in Tokyo, Japan. Building software since 2008 — sell-side trading, fixed-income risk, payments
   and high-traffic consumer platforms. Java, Python, TypeScript, Go,
-  kdb+/q, CVXPY. Currently at Nomura on JGB portfolio optimisation and risk analytics.
+  kdb+/q, CVXPY; independent Rust backend projects. Currently at Nomura on JGB portfolio optimisation and risk analytics.
 layout: default
 page_kind: home
 ---
@@ -49,6 +49,14 @@ page_kind: home
     <div><h3>HSBC Bank</h3><p>Technical Leader · Cross-border account opening</p><span>Guangzhou · 2019–2021</span></div>
     <div><h3>Earlier experience</h3><p>SurLead · Ctrip · Qunshuo</p><span>Manila & Shanghai · 2010–2019</span></div>
   </div>
+</section>
+
+<section class="section" aria-labelledby="learning-title">
+  <p class="eyebrow">INDEPENDENT PROJECTS & ONGOING STUDY</p>
+  <h2 id="learning-title">Rust backends and multiagent systems.</h2>
+  <p>Developing personal Rust backend projects with Axum, Tokio, Serde and RBatis, deepening practical understanding of ownership, borrowing, traits and asynchronous programming.</p>
+  <p>Studying Prolog and Jason/AgentSpeak alongside multiagent systems: logic programming, BDI reasoning, agent communication and coordination.</p>
+  <div class="actions"><a class="text-link" href="https://github.com/richardgong1987/TraderAdminRust">Rust backend project ↗</a><a class="text-link" href="https://github.com/richardgong1987/Jason-learning">Agent programming exercises ↗</a></div>
 </section>
 
 <section class="section closing" aria-labelledby="contact-title">
