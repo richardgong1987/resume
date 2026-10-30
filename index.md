@@ -23,7 +23,7 @@ page_kind: home
   <p class="role">Senior Software Engineer</p>
   <p class="hero-summary">Investment platforms. Financial analytics.<br>Backend & full-stack engineering.</p>
   <p class="intro">{% include years.html %} years of software development across investment banking, retail banking, payments and consumer platforms.</p>
-  <p class="tags">Java · Python · TypeScript/JavaScript · SQL · Cloud & deployment tooling</p>
+  <p class="tags">Java · Python · TypeScript/JavaScript · Go · C# · Rust · Jason/AgentSpeak · Prolog</p>
   <div class="actions">
     <a class="button primary" href="{{ '/gong_hanjin_english.html' | relative_url }}">Read full CV <span aria-hidden="true">↗</span></a>
     <a class="button" href="{{ '/gong_hanjin_english.pdf' | relative_url }}">Download PDF</a>
@@ -54,7 +54,7 @@ page_kind: home
 <section class="section" aria-labelledby="learning-title">
   <p class="eyebrow">TECHNICAL BREADTH</p>
   <h2 id="learning-title">From backend services to intelligent agents.</h2>
-  <p>Professional work across Java, Python, TypeScript/JavaScript, backend APIs, financial data processing, and full-stack applications. Go, C#, Rust and Jason/AgentSpeak feature in earlier experience, personal research or academic study.</p>
+  <p>Professional work across Java, Python, TypeScript/JavaScript, backend APIs, financial data processing, and full-stack applications. My broader toolkit also includes **Go (Golang), C#, Rust, Jason/AgentSpeak and Prolog**, developed through earlier work, independent projects and academic study.</p>
   <p>Ongoing study includes Prolog, multiagent systems, machine-learning mathematics and human-computer interaction.</p>
   <div class="actions"><a class="text-link" href="{{ '/gong_hanjin_english.html' | relative_url }}">Explore professional experience ↗</a><a class="text-link" href="https://github.com/richardgong1987">GitHub ↗</a></div>
 </section>
