@@ -22,13 +22,11 @@ Tokyo, Japan · Open to relocation
 
 ## Profile
 
-Senior Software Engineer with {% include years.html %} years of experience designing, developing and supporting software across investment banking, retail banking, payments and consumer platforms. My work spans financial systems, backend and full-stack engineering, quantitative analytics, enterprise integration, and deployment automation. At Nomura, I have worked across fixed-income portfolio and risk analytics, securities lending, cash operations and trading workflows.
+Senior Software Engineer with {% include years.html %} years of experience across investment banking, retail banking, payments and consumer platforms. My background spans financial systems, backend and full-stack development, quantitative analytics, enterprise integration and deployment automation. At Nomura, I have worked on fixed-income portfolio and risk analytics, securities lending, cash operations and trading workflows.
 
-**Programming languages:** Java, Python, TypeScript/JavaScript, **Go (Golang), C#, Rust, Jason/AgentSpeak and Prolog**. My experience combines commercial software delivery with independent engineering projects and postgraduate study; not every language listed has been used in the same professional role. I work with technologies including NestJS, Next.js, Angular, SQL Server, QuantLib, Docker, GitLab CI/CD, Jenkins and Ansible.
+I work across a broad technology stack, including Java, Python, TypeScript/JavaScript, Go, C# and Rust, alongside frameworks and tools such as NestJS, Next.js, Angular, SQL Server, QuantLib, Docker, GitLab CI/CD and Ansible. My interests also extend to AI, automated reasoning, intelligent agents, cloud computing and distributed systems, informed by postgraduate study and independent exploration of technologies such as Jason/AgentSpeak and Prolog.
 
-**Artificial intelligence and advanced computing:** I am pursuing an MSc in Computer Science at the University of Liverpool, studying AI-related topics including automated and logical reasoning, knowledge representation, intelligent agents, BDI architectures, multiagent systems, and machine-learning foundations, alongside cloud computing. I use **Jason/AgentSpeak and Prolog** to explore agent-oriented and logic-based programming, and independently investigate Rust-based machine learning and trading-system design. These are areas of academic study and independent research rather than claims of production AI deployment.
-
-I bring together financial-domain understanding, broad programming-language experience, analytical problem-solving, and an interest in AI, cloud and distributed systems.
+I enjoy solving complex engineering problems and connecting financial-domain requirements with practical, maintainable software.
 
 ## Professional experience
 
