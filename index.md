@@ -55,7 +55,7 @@ page_kind: home
   <p class="eyebrow">TECHNICAL BREADTH</p>
   <h2 id="learning-title">From backend services to intelligent agents.</h2>
   <p>Professional work across Java, Python, TypeScript/JavaScript, backend APIs, financial data processing, and full-stack applications. My broader toolkit also includes **Go (Golang), C#, Rust, Jason/AgentSpeak and Prolog**, developed through earlier work, independent projects and academic study.</p>
-  <p>Ongoing study includes Prolog, multiagent systems, machine-learning mathematics and human-computer interaction.</p>
+  <p>My University of Liverpool MSc studies also cover artificial intelligence, automated reasoning, knowledge representation, intelligent agents, machine-learning foundations and cloud computing, alongside practical interests in distributed systems.</p>
   <div class="actions"><a class="text-link" href="{{ '/gong_hanjin_english.html' | relative_url }}">Explore professional experience ↗</a><a class="text-link" href="https://github.com/richardgong1987">GitHub ↗</a></div>
 </section>
 
