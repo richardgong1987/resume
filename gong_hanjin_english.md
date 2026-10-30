@@ -22,9 +22,13 @@ Tokyo, Japan · Open to relocation
 
 ## Profile
 
-Senior software engineer with {% include years.html %} years of experience across investment banking, retail banking, payments and consumer platforms. My recent work has spanned fixed-income portfolio construction and risk analytics, investment-order workflows, securities lending operations, cash management, and integrations between modern applications and established financial systems.
+Senior Software Engineer with {% include years.html %} years of experience designing, developing and supporting software across investment banking, retail banking, payments and consumer platforms. My work spans financial systems, backend and full-stack engineering, quantitative analytics, enterprise integration, and deployment automation. At Nomura, I have worked across fixed-income portfolio and risk analytics, securities lending, cash operations and trading workflows.
 
-I work across backend services, full-stack applications, Python financial batch processing, SQL-based integration and CI/CD automation. My professional experience includes TypeScript/JavaScript (NestJS, Next.js and Angular), Python (pandas and QuantLib), Java, SQL Server and Windows/Linux deployment tooling. My broader programming toolkit includes **Go (Golang), C#, Rust, Jason/AgentSpeak and Prolog**, developed through professional experience, independent projects and postgraduate study. My postgraduate Computer Science studies at the University of Liverpool further strengthen my foundations in **artificial intelligence, automated and logic-based reasoning, knowledge representation, BDI and multiagent systems, machine-learning fundamentals, and cloud computing**. I combine these interests with practical backend, distributed-system and production engineering experience.
+**Programming languages:** Java, Python, TypeScript/JavaScript, **Go (Golang), C#, Rust, Jason/AgentSpeak and Prolog**. My experience combines commercial software delivery with independent engineering projects and postgraduate study; not every language listed has been used in the same professional role. I work with technologies including NestJS, Next.js, Angular, SQL Server, QuantLib, Docker, GitLab CI/CD, Jenkins and Ansible.
+
+**Artificial intelligence and advanced computing:** I am pursuing an MSc in Computer Science at the University of Liverpool, studying AI-related topics including automated and logical reasoning, knowledge representation, intelligent agents, BDI architectures, multiagent systems, and machine-learning foundations, alongside cloud computing. I use **Jason/AgentSpeak and Prolog** to explore agent-oriented and logic-based programming, and independently investigate Rust-based machine learning and trading-system design. These are areas of academic study and independent research rather than claims of production AI deployment.
+
+I bring together financial-domain understanding, broad programming-language experience, analytical problem-solving, and an interest in AI, cloud and distributed systems.
 
 ## Professional experience
 
