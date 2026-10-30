@@ -24,7 +24,7 @@ Tokyo, Japan · Open to relocation
 
 Senior software engineer with {% include years.html %} years of experience across investment banking, retail banking, payments and consumer platforms. My recent work has spanned fixed-income portfolio construction and risk analytics, investment-order workflows, securities lending operations, cash management, and integrations between modern applications and established financial systems.
 
-I work across backend services, full-stack applications, Python financial batch processing, SQL-based integration and CI/CD automation. My professional experience includes TypeScript/JavaScript (NestJS, Next.js and Angular), Python (pandas and QuantLib), Java, SQL Server and Windows/Linux deployment tooling. I also explore other languages and systems through independent research and academic study.
+I work across backend services, full-stack applications, Python financial batch processing, SQL-based integration and CI/CD automation. My professional experience includes TypeScript/JavaScript (NestJS, Next.js and Angular), Python (pandas and QuantLib), Java, SQL Server and Windows/Linux deployment tooling. My broader programming toolkit includes **Go (Golang), C#, Rust, Jason/AgentSpeak and Prolog**, developed through professional experience, independent projects and postgraduate study. My postgraduate Computer Science studies at the University of Liverpool further strengthen my foundations in **artificial intelligence, automated and logic-based reasoning, knowledge representation, BDI and multiagent systems, machine-learning fundamentals, and cloud computing**. I combine these interests with practical backend, distributed-system and production engineering experience.
 
 ## Professional experience
 
@@ -119,7 +119,13 @@ Shanghai, China · Aug 2010 – May 2013
 - **Financial engineering:** Fixed-income pricing and risk analytics, QuantLib, pandas, NumPy, yield curves, duration/key-rate sensitivity, portfolio and benchmark analysis, order simulation and securities lending workflows.
 - **Data and enterprise integration:** SQL Server, SQL, TypeORM, file-based trade interfaces, authentication and authorisation, legacy financial systems and data-validation pipelines.
 - **Infrastructure and delivery:** GitLab CI/CD, Jenkins, Ansible, Docker, Linux/Windows deployment automation, logging and health monitoring.
-- **Additional languages and technologies:** Go, C#, Rust, Jason/AgentSpeak, Prolog and other tools explored through earlier roles, personal projects or academic study; see independent research below.
+- **Broader programming languages:** **Go (Golang), C#, Rust, Jason/AgentSpeak and Prolog** — spanning earlier professional work, independent engineering and academic study. These complement my Java, Python and TypeScript/JavaScript experience.
+
+## Artificial Intelligence, Reasoning & Cloud Computing
+
+- **AI and intelligent agents (postgraduate study):** Deductive and practical reasoning, knowledge representation, BDI agent architectures, reactive and hybrid agents, multiagent communication and coordination, with Jason/AgentSpeak and Prolog.
+- **Machine learning foundations:** Mathematical foundations of learning, optimisation and model evaluation, complemented by independent Rust-based machine-learning experiments.
+- **Cloud computing and distributed systems (postgraduate study and engineering interests):** Cloud architecture concepts, distributed application design and the relationship between scalable services, deployment automation and operational reliability. Distinguish academic study from production delivery experience.
 
 ## Independent Research
 
