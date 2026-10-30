@@ -4,11 +4,9 @@ redirect_from:
   - /english.resume.html
   - /gong.hanjin.english.html
 description: >-
-  Full curriculum vitae of Hanjin Gong (Richard Gong), senior full-stack and
-  financial-software engineer in Tokyo, Japan. Nomura, HSBC, Ctrip. Fixed income,
-  JGB portfolio optimisation, convex optimisation with CVXPY, algorithmic trading,
-  Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak.
-  Backend and full-stack development, quantitative engineering and multiagent systems.
+  Full curriculum vitae of Hanjin Gong (Richard Gong), senior software engineer
+  in Tokyo with experience in investment banking, financial analytics,
+  trading operations, backend and full-stack development, and deployment automation.
 layout: default
 page_kind: cv
 ---
@@ -24,9 +22,9 @@ Tokyo, Japan · Open to relocation
 
 ## Profile
 
-Software engineer with {% include years.html %} years of experience across investment banking, retail banking, payments and consumer platforms. My work combines financial-domain understanding with hands-on backend, frontend and delivery engineering. At Nomura, my experience includes Java financial applications alongside JGB portfolio optimisation and risk analytics using Python and CVXPY.
+Senior software engineer with {% include years.html %} years of experience across investment banking, retail banking, payments and consumer platforms. My recent work has spanned fixed-income portfolio construction and risk analytics, investment-order workflows, securities lending operations, cash management, and integrations between modern applications and established financial systems.
 
-Proficient in Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak, with experience spanning professional delivery, independent research and academic work. I work across requirements, implementation, integration and deployment, selecting technologies to suit the problem. My interests include financial systems, backend services, full-stack applications, quantitative development and multiagent systems.
+I work across backend services, full-stack applications, Python financial batch processing, SQL-based integration and CI/CD automation. My professional experience includes TypeScript/JavaScript (NestJS, Next.js and Angular), Python (pandas and QuantLib), Java, SQL Server and Windows/Linux deployment tooling. I also explore other languages and systems through independent research and academic study.
 
 ## Professional experience
 
@@ -36,18 +34,20 @@ Contract assignment through Michael Page Japan
 
 Tokyo, Japan · June 2022 – Present
 
-Platform: Japan Government Bond (JGB) Portfolio Optimisation & Risk Analytics Platform — used by rates PMs, traders, and risk officers on the Tokyo desk.
+**Investment management, trading operations and financial analytics platforms**
 
-- Develop and maintain financial applications in Java at Nomura, alongside Python and TypeScript development, delivering application features and maintaining existing code.
-- Built the JGB optimisation engine in Python + CVXPY: formulated risk-adjusted carry/PnL objectives under duration, DV01, issuer-concentration, liquidity-bucket, and regulatory constraints. Tuned solver (ECOS / OSQP) selection by problem shape and achieved sub-second solve times on representative books.
-- Designed low-latency risk APIs in Python (Flask/FastAPI) and Node.js (NestJS) exposing optimisation, scenario PnL, and exposure-decomposition endpoints; improved tail latency through response caching, lazy curve rebuilds, and vectorised pandas hot paths.
-- Re-architected the legacy monolith into Dockerised microservices on AWS (EKS + ALB), with per-service SLOs, blue/green deploys, and deployment lead time reduced from days to minutes. Introduced structured logging, Datadog dashboards, and trace propagation across the optimisation → risk → UI chain.
-- Owned risk decomposition logic — positions broken down by tenor bucket, issue, and sector; key-rate DV01 and shock-scenario PnL computed incrementally to support interactive what-if flows instead of full recomputation per click.
-- Built the Next.js (App Router) trader-facing front end in TypeScript: server components for heavy data fetching, streaming SSR for first paint, Zustand for interactive optimisation state. Replaced an Angular legacy path for new modules while maintaining interop during migration.
+- Work on a portfolio of internal financial applications supporting fixed-income portfolio construction, portfolio and benchmark analysis, securities lending, cash operations, order simulation, and downstream trading-system integration.
+- Develop and maintain backend and full-stack workflows spanning TypeScript/Node.js services, Next.js and Angular interfaces, Java applications, Python batch processing, and SQL Server-backed business data.
+- Support portfolio and risk analysis covering positions, market data, yield curves, pricing, duration and key-rate sensitivities, factor exposures, and benchmark-relative aggregation.
+- Contribute to Python-based financial processing for fixed-income analytics and portfolio/order-generation workflows, incorporating reusable calculation components, data-validation logic, configurable processing stages, and regression testing.
+- Work on multi-asset order and trade workflows, including validation, permission checks, simulation states, transaction consistency, file-based downstream interfaces, and integration with established investment-management systems.
+- Support operational applications for securities lending and fund cash management, bringing together dated position snapshots, broker allocation flows, cash forecasting, subscriptions/redemptions, FX activity, and exception handling.
+- Develop and maintain enterprise deployment automation using GitLab CI/CD, Jenkins and Ansible across Linux and Windows environments, with environment-specific configuration, controlled releases, health checks, deployment logging, and service-lifecycle operations.
+- Address integration and reliability challenges involving Windows authentication, legacy application compatibility, database/file consistency, financial-data quality, long-running batch processing, and production diagnostics.
 
-- Develop GitLab CI build and packaging jobs and Jenkins pipelines that invoke Ansible; maintain deployment playbooks and Kubernetes manifests.
+**Professional technology exposure:** TypeScript/JavaScript · Node.js / NestJS · Next.js · Angular · Python · QuantLib · pandas · Java · SQL Server · TypeORM · REST APIs · Windows authentication · GitLab CI/CD · Jenkins · Ansible · Docker · Linux · Windows Server
 
-Stack: Java · Python (CVXPY, NumPy, pandas, FastAPI, Flask) · Node.js (NestJS) · TypeScript / Next.js 16 · Angular · Redis · kdb+/q (read-side) · Docker · Kubernetes · AWS (EKS, ALB, S3) · GitLab CI/CD · GitLab Runner · Jenkins · Ansible · Datadog
+*The descriptions above summarise engineering areas across several internal systems. Proprietary project names, implementation identifiers and operational details are intentionally omitted.*
 
 ---
 
@@ -115,13 +115,11 @@ Shanghai, China · Aug 2010 – May 2013
 
 ## Core technologies
 
-- **Languages:** Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak; additional study in Prolog.
-- **Backend and APIs:** Spring Boot, Javalin, FastAPI, Flask, Node.js, NestJS, Express and Axum.
-- **Frontend:** React, Next.js and Angular.
-- **Programming approaches:** Object-oriented and functional programming, asynchronous and concurrent programming, Rust ownership and borrowing, logic programming and BDI agent programming.
-- **Data and integration:** SQL, Oracle, MySQL, Redis, Kafka, RabbitMQ, kdb+/q, REST and gRPC.
-- **Delivery:** GitLab CI/CD, Jenkins, Ansible, Docker, Kubernetes, GitHub Actions, AWS and Azure.
-- **Quantitative development:** CVXPY, NumPy, pandas, portfolio optimisation, yield curves, DV01/key-rate duration and scenario PnL.
+- **Professional application development:** Java, Python and TypeScript/JavaScript; Node.js / NestJS, Next.js, Angular, REST APIs and server-side application integration.
+- **Financial engineering:** Fixed-income pricing and risk analytics, QuantLib, pandas, NumPy, yield curves, duration/key-rate sensitivity, portfolio and benchmark analysis, order simulation and securities lending workflows.
+- **Data and enterprise integration:** SQL Server, SQL, TypeORM, file-based trade interfaces, authentication and authorisation, legacy financial systems and data-validation pipelines.
+- **Infrastructure and delivery:** GitLab CI/CD, Jenkins, Ansible, Docker, Linux/Windows deployment automation, logging and health monitoring.
+- **Additional languages and technologies:** Go, C#, Rust, Jason/AgentSpeak, Prolog and other tools explored through earlier roles, personal projects or academic study; see independent research below.
 
 ## Independent Research
 

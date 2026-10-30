@@ -10,9 +10,9 @@ redirect_from:
   - /josonjoson.html
   - /jenny.html
 description: >-
-  Hanjin Gong (Richard Gong) — senior full-stack and financial-software engineer
-  in Tokyo, Japan. Building software since 2008 — sell-side trading, fixed-income risk, payments
-  and high-traffic consumer platforms. Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak. Currently at Nomura on JGB portfolio optimisation and risk analytics.
+  Hanjin Gong (Richard Gong) — senior software engineer in Tokyo.
+  Investment management, fixed-income analytics, trading operations,
+  backend/full-stack software and enterprise deployment automation.
 layout: default
 page_kind: home
 ---
@@ -21,9 +21,9 @@ page_kind: home
   <p class="eyebrow">TOKYO, JAPAN · OPEN TO RELOCATION</p>
   <h1 id="hero-title">Hanjin Gong<span class="alias">Richard Gong</span></h1>
   <p class="role">Senior Software Engineer</p>
-  <p class="hero-summary">Financial systems. Backend engineering.<br>Full-stack delivery.</p>
+  <p class="hero-summary">Investment platforms. Financial analytics.<br>Backend & full-stack engineering.</p>
   <p class="intro">{% include years.html %} years of software development across investment banking, retail banking, payments and consumer platforms.</p>
-  <p class="tags">Java · Python · Go · TypeScript/JavaScript · C# · Rust · Jason/AgentSpeak</p>
+  <p class="tags">Java · Python · TypeScript/JavaScript · SQL · Cloud & deployment tooling</p>
   <div class="actions">
     <a class="button primary" href="{{ '/gong_hanjin_english.html' | relative_url }}">Read full CV <span aria-hidden="true">↗</span></a>
     <a class="button" href="{{ '/gong_hanjin_english.pdf' | relative_url }}">Download PDF</a>
@@ -35,9 +35,9 @@ page_kind: home
   <p class="eyebrow">ENGINEERING FOCUS</p>
   <h2 id="focus-title">From financial requirements to working software.</h2>
   <div class="focus-grid">
-    <article><span class="number">01</span><h3>Financial systems</h3><p>JGB portfolio optimisation, fixed-income risk analytics, scenario PnL and trader-facing applications.</p><p class="tags">Python · CVXPY · Financial data</p></article>
-    <article><span class="number">02</span><h3>Backend & full stack</h3><p>APIs, data integration and interfaces that connect business workflows across the application stack.</p><p class="tags">Java · Python · TypeScript · Go</p></article>
-    <article><span class="number">03</span><h3>Delivery & operations</h3><p>Build pipelines, deployment automation and repeatable environments alongside application development.</p><p class="tags">GitLab CI · Jenkins · Ansible</p></article>
+    <article><span class="number">01</span><h3>Financial systems</h3><p>Fixed-income portfolio analytics, risk calculations, securities lending, cash operations and investment-order workflows.</p><p class="tags">Python · QuantLib · Financial data</p></article>
+    <article><span class="number">02</span><h3>Backend & full stack</h3><p>Trading and operational APIs, complex data interfaces, financial batch processing and integration with established systems.</p><p class="tags">Java · Python · TypeScript · SQL</p></article>
+    <article><span class="number">03</span><h3>Delivery & operations</h3><p>Controlled multi-environment releases, deployment automation and operational reliability across Linux and Windows.</p><p class="tags">GitLab CI · Jenkins · Ansible</p></article>
   </div>
 </section>
 
@@ -54,7 +54,7 @@ page_kind: home
 <section class="section" aria-labelledby="learning-title">
   <p class="eyebrow">TECHNICAL BREADTH</p>
   <h2 id="learning-title">From backend services to intelligent agents.</h2>
-  <p>Proficient in Java, Python, Go, TypeScript/JavaScript, C#, Rust and Jason/AgentSpeak. Work spans backend APIs, full-stack applications, quantitative development, automated trading and agent coordination across professional roles, independent research and academic study.</p>
+  <p>Professional work across Java, Python, TypeScript/JavaScript, backend APIs, financial data processing, and full-stack applications. Go, C#, Rust and Jason/AgentSpeak feature in earlier experience, personal research or academic study.</p>
   <p>Ongoing study includes Prolog, multiagent systems, machine-learning mathematics and human-computer interaction.</p>
   <div class="actions"><a class="text-link" href="{{ '/gong_hanjin_english.html' | relative_url }}">Explore professional experience ↗</a><a class="text-link" href="https://github.com/richardgong1987">GitHub ↗</a></div>
 </section>
