@@ -1,6 +1,3 @@
-from typing import List
-
-
 class Solution:
     def letterCombinations(self, digits: str) -> list[str]:
         letters = {
@@ -21,6 +18,3 @@ class Solution:
         B(0, '')
 
         return Output
-
-
-print(Solution().letterCombinations('234'))
