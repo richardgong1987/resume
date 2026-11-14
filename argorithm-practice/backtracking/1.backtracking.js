@@ -33,3 +33,4 @@ function backtracking(P) {
 }
 
 console.log(results);
+
