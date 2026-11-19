@@ -15,7 +15,7 @@ def solution(commands):
 
             investments[investment_id] = {
                 "brand": brand,
-                "principal": int(amount),  # 新增
+                "principal": int(amount),
                 "balance": int(amount),
                 "failed": 0,
                 "failed_balance": 0
@@ -41,7 +41,6 @@ def solution(commands):
 
             inv["failed"] += amount
 
-            # 重新计算有效本金对应的余额
             inv["failed_balance"] = (
                     inv["balance"]
                     - inv["balance"]
